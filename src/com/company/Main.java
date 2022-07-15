@@ -8,6 +8,5 @@ public class Main {
         triangle.b = 6;
         triangle.c = 7;
         triangle.area();
-
     }
 }

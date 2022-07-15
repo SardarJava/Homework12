@@ -4,9 +4,12 @@ public class Triangle {
         int a;
         int b;
         int c;
+        int u;
+
 
         void area () {
-            System.out.println("The result is: " + a * b * c / 2);
+            u = a * b * c / 2;
+            System.out.println(Math.sqrt(u*(u-a)*(u-b)*(u-c)));
         }
 
 
